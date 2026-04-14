@@ -18,8 +18,12 @@ website_context = {
     """
 }
 
-# Include CSS files - path should be relative to the app folder
-app_include_css = [
-    "/assets/erpnext_custom_theme/css/website_theme.css",
-    "/assets/erpnext_custom_theme/css/desk_theme.css",
-]
+# Include CSS files
+app_include_css = {
+    "erpnext_custom_theme": "public/css/website_theme.css",
+}
+
+# Include JS bundle
+app_include_js = {
+    "erpnext_custom_theme.bundle": "public/js/theme.js",
+}

@@ -1,5 +1,5 @@
 module.exports = {
-  theme: {
-    no_blur: false,
+  js: {
+    "erpnext_custom_theme.bundle": "public/js/theme.js",
   },
 };
