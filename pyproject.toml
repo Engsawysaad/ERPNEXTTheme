@@ -12,5 +12,8 @@ license = {text = "MIT"}
 authors = [{name = "Custom", email = "custom@example.com"}]
 # No frappe dependency - theme app only needs to be installed after frappe is ready
 
+[tool.frappe]
+frappe_version = "16.0.0"
+
 [project.urls]
 Homepage = "https://github.com/Engsawysaad/ERPNEXTTheme"
