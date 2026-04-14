@@ -21,5 +21,4 @@ setup(
         "Programming Language :: Python :: 3.10",
     ],
     python_requires=">=3.10",
-    install_requires=["frappe>=16.0.0"],
 )

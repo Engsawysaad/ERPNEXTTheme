@@ -10,7 +10,7 @@ readme = "README.md"
 requires-python = ">=3.10"
 license = {text = "MIT"}
 authors = [{name = "Custom", email = "custom@example.com"}]
-dependencies = ["frappe>=16.0.0"]
+# No frappe dependency - theme app only needs to be installed after frappe is ready
 
 [project.urls]
 Homepage = "https://github.com/Engsawysaad/ERPNEXTTheme"
