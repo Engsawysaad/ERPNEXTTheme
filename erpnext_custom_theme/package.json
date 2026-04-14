@@ -1,0 +1,11 @@
+{
+  "name": "erpnext_custom_theme",
+  "version": "0.0.1",
+  "description": "Custom theme for ERPNext",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no tests specified\" && exit 1"
+  },
+  "author": "Custom",
+  "license": "MIT"
+}
