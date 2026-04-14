@@ -9,21 +9,12 @@ app_version = "0.0.1"
 app_license = "MIT"
 is_frappe_app = True
 
-# Website CSS injection - loads Google Fonts
+# Website CSS injection - loads Google Fonts and theme CSS
 website_context = {
     "add_head_html": """
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="/assets/erpnext_custom_theme/css/theme.css">
     """
-}
-
-# Include CSS files
-app_include_css = {
-    "erpnext_custom_theme": "public/css/website_theme.css",
-}
-
-# Include JS bundle
-app_include_js = {
-    "erpnext_custom_theme.bundle": "public/js/theme.js",
 }
