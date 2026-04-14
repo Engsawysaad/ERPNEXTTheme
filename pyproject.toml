@@ -1,0 +1,16 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "erpnext_custom_theme"
+version = "0.0.1"
+description = "Custom theme for ERPNext based on ThemeRef styling"
+readme = "README.md"
+requires-python = ">=3.10"
+license = {text = "MIT"}
+authors = [{name = "Custom", email = "custom@example.com"}]
+dependencies = ["frappe>=16.0.0"]
+
+[project.urls]
+Homepage = "https://github.com/Engsawysaad/ERPNEXTTheme"
